@@ -1,0 +1,48 @@
+.container {
+    width: auto;
+}
+
+.header {
+    height: 100px;
+    background: rgb(241, 204, 204);
+    width: auto;
+    display: flex;
+    box-shadow: 0 3px 1px #000;
+}
+
+.logo {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.navigation {
+    position: relative;
+    width: 75%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    align-items: center
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: rgb(116, 13, 218);
+    font-size: 30px;
+    border: 1px solid black;
+    background: #dd5a5a7c;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.navigation li:hover {
+    transform: scale(1.2);
+    background: #000;
+}
